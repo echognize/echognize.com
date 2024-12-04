@@ -1,1 +1,45 @@
-Under Construction
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+
+        /* Light mode styles */
+        @media (prefers-color-scheme: light) {
+            :root {
+                --background-color: #f0f0f0;
+                --text-color: #333;
+            }
+        }
+
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #333;
+                --text-color: #f0f0f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Under Construction</h1>
+</body>
+</html>
